@@ -1,0 +1,21 @@
+{
+    "name": "Tab Organizer",
+    "version": "0.0.0",
+    "author": "Akhilesh Yarabarla",
+    "manifest_version": 2,
+    "description": "Organize your tabs into meaningful groups using tags and view/open tab groups on command for efficient browsing",
+    
+    "browser_action": {
+        "default_title": "Tab Organizer",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["eventPage.js"],
+        "persistence": false
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs"
+    ]
+}
